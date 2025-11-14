@@ -1,0 +1,33 @@
+#  Features and capabilities
+
+1. Features and Capabilities of the Command-Line Assistant Powered by RHEL Lightspeed
+
+The command-line assistant powered by RHEL Lightspeed offers a range of features and capabilities designed to enhance your RHEL experience. Here are some of its key functionalities:
+
+1.1. **AI-Driven Expertise**
+
+The assistant leverages the power of generative AI, specifically the WatsonX AI API LLM (Large Language Model), to provide accurate and contextually relevant responses to your queries. This AI model has been trained on a diverse range of Red Hat knowledge sources, including Knowledge Centered Service (KCS) articles and RHEL documentation.
+
+FIXME: Consider adding an image or a diagram illustrating the AI model's architecture or data sources to provide a visual representation of its capabilities.
+
+1.2. **Interactive Problem Solving**
+
+The command-line assistant is designed to facilitate interactive workflows, enabling you to solve issues, implement new RHEL features, and find information more efficiently. It can guide you through complex tasks, breaking them down into manageable steps.
+
+FIXME: Suggest adding a short video demonstration showcasing the assistant in action, solving a common RHEL issue or guiding the user through a task. This would provide a practical, visual representation of its capabilities.
+
+1.3. **Comprehensive Assistance**
+
+The assistant can help with a wide array of activities, such as answering RHEL-related questions, troubleshooting and fixing issues, understanding log files, and seeking recommendations. It serves as a one-stop solution for various RHEL-related needs.
+
+1.4. **Lifecycle Alignment**
+
+The command-line assistant follows the RHEL lifecycle, ensuring that the information it provides remains up-to-date and relevant. For details on supported versions and associated policies, refer to the Red Hat Enterprise Linux Life Cycle.
+
+FIXME: Recommend including a table or infographic summarizing the RHEL lifecycle and the corresponding support periods for different versions. This would help users understand the assistant's alignment with the RHEL lifecycle.
+
+1.5. **Data Privacy**
+
+It's important to note that the command-line assistant does not have direct access to system information. However, users can include relevant environment details in their messages, which are then sent to the LLM provider for more accurate responses.
+
+FIXME: Pro

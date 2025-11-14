@@ -1,0 +1,17 @@
+#  The Command-Line Assistant Powered by RHEL Lightspeed
+
+1.1. THE COMMAND-LINE ASSISTANT POWERED BY RHEL LIGHTSPEED
+
+The command-line assistant powered by RHEL Lightspeed is an AI-driven tool integrated into the RHEL command-line interface. It harnesses the vast knowledge base from Red Hat resources, including Knowledge Centered Service (KCS) articles and RHEL documentation. This assistant aids users in various tasks such as:
+
+- Answering RHEL-related questions
+- Troubleshooting and resolving issues
+- Interpreting log files
+- Seeking recommendations for system configurations or updates
+
+It supports interactive workflows, enabling users to solve problems, deploy new RHEL features, and discover relevant information efficiently.
+
+**Suggestions for improvement:**
+
+FIXME: Consider adding a screenshot demonstrating the command-line interface with the assistant in action to provide a visual context for users.
+FIXME: Include a short video tutorial showcasing how to use the command-line assistant for common tasks, enhancing the learning experience for visual learners.

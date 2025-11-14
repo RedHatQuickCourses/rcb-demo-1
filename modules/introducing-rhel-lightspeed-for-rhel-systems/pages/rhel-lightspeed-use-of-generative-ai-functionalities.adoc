@@ -1,0 +1,28 @@
+#  RHEL Lightspeed use of generative AI functionalities
+
+FIXME: Consider adding an image illustrating the architecture of RHEL Lightspeed utilizing the WatsonX AI API LLM. This visual aid can help learners grasp the concept of how RHEL Lightspeed integrates generative AI functionalities.
+
+---
+
+## RHEL Lightspeed Use of Generative AI Functionalities
+
+RHEL Lightspeed harnesses the power of generative AI through the WatsonX AI API LLM (Large Language Model) to enhance system management and support for Red Hat Enterprise Linux (RHEL) systems. This integration allows RHEL Lightspeed to provide intelligent, AI-driven assistance to users, making it easier to manage and troubleshoot RHEL environments.
+
+### The WatsonX AI API LLM
+
+The WatsonX AI API LLM is a sophisticated language model deployed as a SaaS (Software as a Service) external infrastructure. It serves as the backbone for RHEL Lightspeed's generative AI functionalities, enabling the system to understand and respond to natural language queries related to RHEL.
+
+### Integration with RHEL Resources
+
+RHEL Lightspeed's AI capabilities are powered by information from various Red Hat resources, including:
+
+1. **Knowledge Centered Service (KCS) articles**: These articles contain valuable troubleshooting tips, best practices, and solutions to common RHEL issues.
+2. **RHEL documentation**: Comprehensive guides, manuals, and reference materials that provide in-depth knowledge about RHEL features, configurations, and system administration.
+
+By leveraging these resources, the command-line assistant powered by RHEL Lightspeed can offer accurate, context-aware assistance to users, helping them to understand, configure, and troubleshoot their RHEL systems more efficiently.
+
+### Video Demonstration
+
+To further enhance understanding, consider embedding a short video demonstration showcasing how RHEL Lightspeed's generative AI functionalities work in practice. The video could illustrate a user interacting with the command-line assistant, asking questions, and receiving AI-driven responses based on the integrated RHEL resources.
+
+FIXME: Suggest adding a video demonstration to illustrate the practical application of RHEL Lightspeed's generative AI functionalities. This visual representation will help learners better comprehend the technology's capabilities and benefits.

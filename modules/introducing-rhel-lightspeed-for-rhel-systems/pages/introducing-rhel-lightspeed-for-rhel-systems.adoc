@@ -1,0 +1,17 @@
+#   Introducing RHEL Lightspeed for RHEL Systems
+
+```
+Introducing RHEL Lightspeed for RHEL Systems
+:rhel-lightspeed-intro:
+
+Red Hat Enterprise Linux (RHEL) Lightspeed is an advanced management platform designed to enhance the security, scalability, and efficiency of RHEL systems. It leverages generative AI functionalities, specifically the WatsonX AI API LLM (Large Language Model), to provide an intelligent command-line assistant.
+
+Key Points:
+- RHEL Lightspeed integrates AI to offer expert assistance for configuring, managing, and troubleshooting RHEL systems.
+- The platform utilizes the WatsonX AI API LLM, deployed as a SaaS external infrastructure, to power its generative AI functionalities.
+- This AI-driven command-line assistant helps users by suggesting commands and providing relevant information to address queries or issues.
+
+Suggestions for Improvement:
+FIXME: Include a diagram illustrating the architecture of RHEL Lightspeed, highlighting the integration of the WatsonX AI API LLM.
+FIXME: Add a short video demonstration showcasing the command-line assistant in action, emphasizing its capabilities and user interaction.
+```

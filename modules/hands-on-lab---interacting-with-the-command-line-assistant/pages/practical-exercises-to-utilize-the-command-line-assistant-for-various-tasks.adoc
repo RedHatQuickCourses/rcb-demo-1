@@ -1,0 +1,40 @@
+#  Practical exercises to utilize the command-line assistant for various tasks
+
+#### Hands-on Lab - Interacting with the Command-Line Assistant
+
+In this hands-on lab, you will learn to utilize the command-line assistant powered by RHEL Lightspeed for various tasks. The lab is divided into several practical exercises that will help you understand the capabilities and features of the command-line assistant.
+
+##### Prerequisites
+
+- A RHEL system with the command-line assistant installed (refer to Chapter 2 for installation instructions).
+- Basic knowledge of using the command-line interface on RHEL.
+
+##### Exercise 1: Asking Questions
+
+1. Open a terminal on your RHEL system.
+2. Use the command `c "What is RHEL?"` to ask a question to the command-line assistant.
+3. Observe the response provided by the assistant.
+4. Repeat the process with other RHEL-related questions, such as `c "How to check disk usage?"`, `c "What is SELinux?"`, etc.
+
+*Suggestion:* Include an image showcasing the terminal with the user input and the corresponding assistant response for better visual understanding.
+
+##### Exercise 2: Attaching Files
+
+1. Prepare a sample file (e.g., a text file or a configuration file) on your RHEL system.
+2. Use the command `c "Can you help me understand this file?"`, followed by dragging and dropping or specifying the file path.
+3. Observe the assistant's analysis and explanation of the file content.
+
+*Suggestion:* Add a short video demonstrating the file attachment process and the assistant's response for a more engaging learning experience.
+
+##### Exercise 3: Checking History Interaction
+
+1. Perform various tasks using the command-line interface, such as checking system information, modifying file permissions, or installing a package.
+2. After completing the tasks, use the command `c "Show me my recent interactions with the command-line assistant."` to review your history.
+3. Analyze the assistant's responses and how they helped you during the tasks.
+
+*Suggestion:* Include screenshots of the terminal showing the user's command-line interactions and the corresponding assistant responses.
+
+##### Exercise 4: Redirecting Command Output
+
+1. Execute a command that generates output, for example, `ls -l`.
+2. Redirect the output to the command-line assistant using the command `c "Analyze

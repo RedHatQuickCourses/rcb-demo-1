@@ -1,0 +1,54 @@
+#  Setting up a test environment
+
+FIXME: To enhance the understanding of setting up a test environment for the command-line assistant powered by RHEL Lightspeed, consider incorporating the following suggestions:
+
+1. **Step-by-step instructions**: Provide a detailed, numbered list of actions required to set up a test environment. This should include prerequisites, such as having root access and enabling the command-line assistant.
+
+2. **Screenshots**: Include screenshots for each step to visually guide the user through the process. This will help users identify any discrepancies between their environment and the expected setup.
+
+3. **Video walkthrough**: Create a short video demonstrating the entire process of setting up a test environment. This will cater to visual learners and provide a more comprehensive understanding of the setup process.
+
+4. **Troubleshooting tips**: Add a section with common issues users might encounter while setting up the test environment and their respective solutions.
+
+Here's a draft of the content based on the given topic:
+
+---
+
+## Hands-on Lab - Setting up a Test Environment
+
+In this section, we will guide you through the process of setting up a test environment for the command-line assistant powered by RHEL Lightspeed.
+
+### Prerequisites
+
+1. Root access to your system.
+2. The command-line assistant enabled.
+
+### Step 1: Create a Virtual Machine (Optional)
+
+For a clean and isolated environment, consider setting up a virtual machine using tools like VirtualBox or VMware. This step is optional but recommended for a risk-free testing experience.
+
+![Creating a Virtual Machine](https://example.com/vm-setup.png)
+
+### Step 2: Install RHEL on the Virtual Machine or Host System
+
+Install Red Hat Enterprise Linux (RHEL) on your chosen platform (virtual machine or host system). Ensure that you have the latest updates and packages installed.
+
+### Step 3: Enable the Command-Line Assistant
+
+Enable the command-line assistant by running the following command:
+
+```bash
+sudo systemctl enable --now cla
+```
+
+### Step 4: Verify the Command-Line Assistant Installation
+
+Check if the command-line assistant is running and enabled:
+
+```bash
+sudo systemctl status cla
+```
+
+### Step 5: Test the Command-Line Assistant
+
+Test the command-line assistant by executing a simple command, such

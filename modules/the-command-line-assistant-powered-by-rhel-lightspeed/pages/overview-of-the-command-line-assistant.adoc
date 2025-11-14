@@ -1,0 +1,30 @@
+#  Overview of the command-line assistant
+
+== The Command-Line Assistant Powered by RHEL Lightspeed
+
+The command-line assistant, powered by RHEL Lightspeed, is an innovative tool designed to enhance your interaction with Red Hat Enterprise Linux (RHEL) using the command-line interface. This assistant leverages the power of generative AI functionalities, specifically the WatsonX AI API's Large Language Model (LLM), to provide comprehensive support for various tasks.
+
+### How the Command-Line Assistant Works
+
+1. **Input Reception**: The command-line assistant receives your question or command as input.
+2. **Logging and Storage**: The assistant logs and stores complete transcripts of conversations, including your queries, the messages sent to the LLM provider, and the complete responses from the LLM provider.
+3. **Backend Processing**: The input is processed by the backend, which involves searching for relevant knowledge related to your query.
+4. **AI Inference**: The command-line assistant then takes your query, relevant knowledge, and other instructions, and sends it for AI inference.
+5. **Output Generation**: Finally, you receive an output from the command-line assistant as a response.
+
+### Features and Capabilities
+
+The command-line assistant is equipped with a range of features and capabilities to assist both novice and experienced users. These include:
+
+- **Answering RHEL-related questions**: The assistant can provide detailed responses to a wide array of RHEL-related queries.
+- **Assisting with troubleshooting**: Whether it's deciphering log entries or diagnosing system issues, the command-line assistant is ready to help.
+- **Guiding various tasks**: From configuring services to managing system settings, the assistant can guide you through numerous tasks.
+
+### Important Note
+
+While the command-line assistant is a powerful tool, it's crucial to remember that AI-generated responses should always be reviewed for accuracy before implementation. Red Hat advises against relying solely on AI tools without human verification.
+
+#### Suggestions for Enhancing the Content
+
+- **Image**: Include a diagram illustrating the process flow of input and output in the command-line assistant. This could visually represent the steps from input reception to output generation.
+- **Video**: A short demonstration video showcasing the command-line assistant in action could be beneficial. This could demonstrate how to ask questions,
