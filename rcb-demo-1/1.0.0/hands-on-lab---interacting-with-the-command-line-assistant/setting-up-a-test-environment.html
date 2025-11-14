@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Setting up a test environment :: RHEL Lightspeed for RHEL Systems</title>
+    <link rel="prev" href="hands-on-lab---interacting-with-the-command-line-assistant.html">
+    <link rel="next" href="practical-exercises-to-utilize-the-command-line-assistant-for-various-tasks.html">
+    <meta name="generator" content="Antora 3.1.3">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+    <script>var uiRootPath = '../../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://www.redhat.com" target="_blank"><img src="../../../_/img/redhat-logo.png" height="40px" alt="Red Hat"></a>
+      <a class="navbar-item" style="font-size: 24px; color: white" href="../../..">RHEL Lightspeed for RHEL Systems</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://github.com/RedHatQuickCourses/REPLACEREPONAME/issues" target="_blank">Report Issues</a>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="rcb-demo-1" data-version="1.0.0">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">RHEL Lightspeed for RHEL Systems</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../index.html">Home</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../LABENV/index.html">Lab Environment</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../introducing-rhel-lightspeed-for-rhel-systems/introducing-rhel-lightspeed-for-rhel-systems.html">Introducing RHEL Lightspeed for RHEL Systems</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../introducing-rhel-lightspeed-for-rhel-systems/rhel-lightspeed-use-of-generative-ai-functionalities.html">RHEL Lightspeed use of generative AI functionalities</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../introducing-rhel-lightspeed-for-rhel-systems/rhel-lightspeed-uses-the-watsonx-ai-api-llm-large-language-model.html">RHEL Lightspeed uses the WatsonX AI API LLM (Large Language Model)</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../the-command-line-assistant-powered-by-rhel-lightspeed/the-command-line-assistant-powered-by-rhel-lightspeed.html">The Command-Line Assistant Powered by RHEL Lightspeed</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../the-command-line-assistant-powered-by-rhel-lightspeed/overview-of-the-command-line-assistant.html">Overview of the command-line assistant</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../the-command-line-assistant-powered-by-rhel-lightspeed/features-and-capabilities.html">Features and capabilities</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="hands-on-lab---interacting-with-the-command-line-assistant.html">Hands-on Lab - Interacting with the Command-Line Assistant</a>
+<ul class="nav-list">
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="setting-up-a-test-environment.html">Setting up a test environment</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="practical-exercises-to-utilize-the-command-line-assistant-for-various-tasks.html">Practical exercises to utilize the command-line assistant for various tasks</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../appendix/appendix.html">Appendix</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">RHEL Lightspeed for RHEL Systems</span>
+    <span class="version">1.0.0</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">RHEL Lightspeed for RHEL Systems</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">1.0.0</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">RHEL Lightspeed for RHEL Systems</a></li>
+    <li><a href="hands-on-lab---interacting-with-the-command-line-assistant.html">Hands-on Lab - Interacting with the Command-Line Assistant</a></li>
+    <li><a href="setting-up-a-test-environment.html">Setting up a test environment</a></li>
+  </ul>
+</nav>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Setting up a test environment</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>FIXME: To enhance the understanding of setting up a test environment for the command-line assistant powered by RHEL Lightspeed, consider incorporating the following suggestions:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong>Step-by-step instructions</strong>: Provide a detailed, numbered list of actions required to set up a test environment. This should include prerequisites, such as having root access and enabling the command-line assistant.</p>
+</li>
+<li>
+<p><strong>Screenshots</strong>: Include screenshots for each step to visually guide the user through the process. This will help users identify any discrepancies between their environment and the expected setup.</p>
+</li>
+<li>
+<p><strong>Video walkthrough</strong>: Create a short video demonstrating the entire process of setting up a test environment. This will cater to visual learners and provide a more comprehensive understanding of the setup process.</p>
+</li>
+<li>
+<p><strong>Troubleshooting tips</strong>: Add a section with common issues users might encounter while setting up the test environment and their respective solutions.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Here&#8217;s a draft of the content based on the given topic:</p>
+</div>
+<hr>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_hands_on_lab_setting_up_a_test_environment"><a class="anchor" href="#_hands_on_lab_setting_up_a_test_environment"></a>Hands-on Lab - Setting up a Test Environment</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In this section, we will guide you through the process of setting up a test environment for the command-line assistant powered by RHEL Lightspeed.</p>
+</div>
+<div class="sect2">
+<h3 id="_prerequisites"><a class="anchor" href="#_prerequisites"></a>Prerequisites</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Root access to your system.</p>
+</li>
+<li>
+<p>The command-line assistant enabled.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_step_1_create_a_virtual_machine_optional"><a class="anchor" href="#_step_1_create_a_virtual_machine_optional"></a>Step 1: Create a Virtual Machine (Optional)</h3>
+<div class="paragraph">
+<p>For a clean and isolated environment, consider setting up a virtual machine using tools like VirtualBox or VMware. This step is optional but recommended for a risk-free testing experience.</p>
+</div>
+<div class="paragraph">
+<p>![Creating a Virtual Machine](<a href="https://example.com/vm-setup.png" class="bare">https://example.com/vm-setup.png</a>)</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_step_2_install_rhel_on_the_virtual_machine_or_host_system"><a class="anchor" href="#_step_2_install_rhel_on_the_virtual_machine_or_host_system"></a>Step 2: Install RHEL on the Virtual Machine or Host System</h3>
+<div class="paragraph">
+<p>Install Red Hat Enterprise Linux (RHEL) on your chosen platform (virtual machine or host system). Ensure that you have the latest updates and packages installed.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_step_3_enable_the_command_line_assistant"><a class="anchor" href="#_step_3_enable_the_command_line_assistant"></a>Step 3: Enable the Command-Line Assistant</h3>
+<div class="paragraph">
+<p>Enable the command-line assistant by running the following command:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">sudo systemctl enable --now cla</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_step_4_verify_the_command_line_assistant_installation"><a class="anchor" href="#_step_4_verify_the_command_line_assistant_installation"></a>Step 4: Verify the Command-Line Assistant Installation</h3>
+<div class="paragraph">
+<p>Check if the command-line assistant is running and enabled:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">sudo systemctl status cla</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_step_5_test_the_command_line_assistant"><a class="anchor" href="#_step_5_test_the_command_line_assistant"></a>Step 5: Test the Command-Line Assistant</h3>
+<div class="paragraph">
+<p>Test the command-line assistant by executing a simple command, such</p>
+</div>
+</div>
+</div>
+</div>
+<nav class="pagination">
+  <span class="prev"><a href="hands-on-lab---interacting-with-the-command-line-assistant.html">Hands-on Lab - Interacting with the Command-Line Assistant</a></span>
+  <span class="next"><a href="practical-exercises-to-utilize-the-command-line-assistant-for-various-tasks.html">Practical exercises to utilize the command-line assistant for various tasks</a></span>
+</nav>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <img src="../../../_/img/rhl-logo-red.png" height="40px" alt="Red Hat"  href="https://redhat.com" >
+</footer><script id="site-script" src="../../../_/js/site.js" data-ui-root-path="../../../_"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
